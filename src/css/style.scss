@@ -1,0 +1,50 @@
+@import '_variables';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+html, body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: $primary-background;
+}
+
+main {
+  align-items:center;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+header {
+   background: #2c54e8 $header-background;
+   ;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.primary-text {
+  font-size: 0.74rem;
+  color: #aaaaaa;
+}
+
+.main-content {
+  background: #ffffff;
+}
+
+footer {
+  background: #ffffff;
+}
