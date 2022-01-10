@@ -16,29 +16,92 @@ html, body {
 
 body {
   background: $primary-background;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.91;
 }
 
 main {
-  align-items:center;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 27.4rem;
+  min-width: 27.4rem;
 }
 
 header {
-   background: #2c54e8 $header-background;
+  background: #2c54e8 $header-background;
+  display: flex;
+  justify-content: center;
+  height: 12.5rem;
 }
 
 h1 {
   color: #fff;
   text-align: center;
+  width: 11em;
+  margin-top: 3rem;
+  font-size: 1.7rem;
+  z-index: 1;
 }
 
 .primary-text {
-  font-size: 0.74rem;
+  font-size: 0.9rem;
   color: #aaaaaa;
   text-align: center;
+  width: 26rem;
+  padding: 0.8rem;
+}
+
+.no-spam {
+  font-size: 0.8rem;
+  color: #aaaaaa;
+  margin-left: 3em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  height: 2.8em;
+}
+
+.email {
+  width: 19em;
+  margin-right: 1em;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  padding-left: 16px;
+  background-color: #F5F7FA;
+}
+
+button {
+  color: #fff;
+  font-weight: bold;
+  background: #2c54e8;
+  border-radius: 6px;
+  width: 9em;
+  border: none;
+}
+
+.img-name-container {
+  display: flex;
+  justify-content: center;
+}
+
+.name-title-container {
+  padding-left: 1em;
+}
+
+.name {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.title {
+  margin-top: 0px;
+  color: #aaaaaa;
 }
 
 .main-content {
@@ -47,4 +110,11 @@ h1 {
 
 footer {
   background: #ffffff;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 4px 20px 22px 20px;
 }
