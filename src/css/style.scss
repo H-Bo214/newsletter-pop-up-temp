@@ -15,26 +15,25 @@ html, body {
 }
 
 body {
-  background: $primary-background;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  opacity: 0.91;
+background: $primary-background;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 main {
   display: flex;
   flex-direction: column;
   width: 27.4rem;
-  min-width: 27.4rem;
 }
 
 header {
-  background: #2c54e8 $header-background;
+  background: $primary-blue $header-background;
   display: flex;
   justify-content: center;
   height: 12.5rem;
+  border-radius: 6px 6px 0 0
 }
 
 h1 {
@@ -48,7 +47,7 @@ h1 {
 
 .primary-text {
   font-size: 0.9rem;
-  color: #aaaaaa;
+  color: $primary-gray;
   text-align: center;
   width: 26rem;
   padding: 0.8rem;
@@ -56,7 +55,7 @@ h1 {
 
 .no-spam {
   font-size: 0.8rem;
-  color: #aaaaaa;
+  color: $primary-gray;
   margin-left: 3em;
 }
 
@@ -78,7 +77,7 @@ form {
 button {
   color: #fff;
   font-weight: bold;
-  background: #2c54e8;
+  background: $primary-blue;
   border-radius: 6px;
   width: 9em;
   border: none;
@@ -101,20 +100,24 @@ button {
 
 .title {
   margin-top: 0px;
-  color: #aaaaaa;
+  color: $primary-gray;
 }
 
 .main-content {
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
   background: #ffffff;
+  border-radius: 0 0 6px 6px;
 }
 
 .footer-text {
   font-size: 0.9rem;
-  color: #aaaaaa;
+  color: $primary-gray;
   text-align: center;
   padding: 4px 20px 22px 20px;
 }
