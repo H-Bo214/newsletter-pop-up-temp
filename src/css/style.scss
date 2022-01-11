@@ -1,0 +1,123 @@
+@import '_variables';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+html, body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+background: $primary-background;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 27.4rem;
+}
+
+header {
+  background: $primary-blue $header-background;
+  display: flex;
+  justify-content: center;
+  height: 12.5rem;
+  border-radius: 6px 6px 0 0
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  width: 11em;
+  margin-top: 3rem;
+  font-size: 1.7rem;
+  z-index: 1;
+}
+
+.primary-text {
+  font-size: 0.9rem;
+  color: $primary-gray;
+  text-align: center;
+  width: 26rem;
+  padding: 0.8rem;
+}
+
+.no-spam {
+  font-size: 0.8rem;
+  color: $primary-gray;
+  margin-left: 3em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  height: 2.8em;
+}
+
+.email {
+  width: 19em;
+  margin-right: 1em;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  padding-left: 16px;
+  background-color: #F5F7FA;
+}
+
+button {
+  color: #fff;
+  font-weight: bold;
+  background: $primary-blue;
+  border-radius: 6px;
+  width: 9em;
+  border: none;
+}
+
+.img-name-container {
+  display: flex;
+  justify-content: center;
+}
+
+.name-title-container {
+  padding-left: 1em;
+}
+
+.name {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.title {
+  margin-top: 0px;
+  color: $primary-gray;
+}
+
+.main-content {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background: #ffffff;
+  border-radius: 0 0 6px 6px;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: $primary-gray;
+  text-align: center;
+  padding: 4px 20px 22px 20px;
+}

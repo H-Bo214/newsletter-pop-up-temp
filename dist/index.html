@@ -4,10 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webpack Starter Kit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <title>Newsletter Pop-up</title>
 </head>
 <body>
-  <img src="./images/turing-logo.png" alt="turing logo">
+ <main>
+   <header>
+     <h1>Creating email templates has never been easier.</h1>
+   </header>
+   <section class="main-content">
+    <p class="primary-text">Receive daily emails on how to best create email templates, completely free.</p>
+    <form>
+      <input class="email" type="text" name="Email Address" placeholder="Email Address"> 
+      <button>Subscribe</button>
+    </form>
+    <p class="no-spam">No spam, ever. Unsubscribe anytime</p>
+    <section class="img-name-container">
+      <img src="./images/User-Avatar.svg">
+      <section class="name-title-container">
+        <p class="name">John Doe</p>
+        <p class="title">Newsletter Designer</p>
+      </section>
+    </section>
+   </section>
+   <footer class="footer-text">"By far one of the best newsletters I've ever subscribed to. It is sent out biweekly and I'm always looking forward to their emails."</footer>
+ </main>
   
   <!-- Do not include the scripts.js or class files here - it is done by the webpack server -->
   <script src="bundle.js"></script>
